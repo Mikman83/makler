@@ -1,0 +1,28 @@
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 30px;
+
+  &__logo {
+    display: flex;
+    font-size: 0;
+    color: #4a4a4a;
+  }
+
+  &__logo span {
+    font-size: 17px;
+    padding-left: 15px;
+    margin: auto 0;
+  }
+
+  &__contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 400px;
+    font-family: 'HelveticaNeueCyr';
+    font-size: 18px;
+  }
+}
