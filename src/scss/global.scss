@@ -1,42 +1,30 @@
 @font-face {
-  font-family: 'HelveticaNeueCyr';
-  src: url('../fonts/subset-HelveticaNeueCyr-Roman.woff2') format('woff2'),
-    url('../fonts/subset-HelveticaNeueCyr-Roman.woff') format('woff');
-  font-weight: normal;
+  font-family: 'Montserrat';
+  src:
+    url('../fonts/subset-Montserrat-ExtraBold.woff2') format('woff2'),
+    url('../fonts/subset-Montserrat-ExtraBold.woff') format('woff');
+  font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'HelveticaNeueCyr';
-  src: url('../fonts/subset-HelveticaNeueCyr-Thin.woff2') format('woff2'),
-    url('../fonts/subset-HelveticaNeueCyr-Thin.woff') format('woff');
-  font-weight: 100;
+  font-family: 'Montserrat';
+  src:
+    url('../fonts/subset-Montserrat-Bold.woff2') format('woff2'),
+    url('../fonts/subset-Montserrat-Bold.woff') format('woff');
+  font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../fonts/subset-OpenSans-Regular.woff2') format('woff2'),
-    url('../fonts/subset-OpenSans-Regular.woff') format('woff');
-  font-weight: normal;
+  font-family: 'Montserrat';
+  src:
+    url('../fonts/subset-Montserrat-Medium.woff2') format('woff2'),
+    url('../fonts/subset-Montserrat-Medium.woff') format('woff');
+  font-weight: 500;
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'Open Sans';
-  src: url('../fonts/subset-OpenSans-SemiBold.woff2') format('woff2'),
-    url('../fonts/subset-OpenSans-SemiBold.woff') format('woff');
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Century751 SeBd BT';
-  src: url('../fonts/subset-Century751BT-SemiBold.woff2') format('woff2'),
-    url('../fonts/subset-Century751BT-SemiBold.woff') format('woff');
-  font-weight: 600;
-  font-style: normal;
-}
 
 html {
   font-family: sans-serif;
