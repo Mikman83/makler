@@ -60,15 +60,15 @@
 
   <main>
     <section class="promo">
-      <div class="promo__advatages advatages">
+      <div class="promo__advatages advantages">
         <div class="wrapper">
           <div class="advantages__title">
             <h2>Выкупим торговое оборудования дороже конкурентов и вернем Вам до 96% рыночной стоимости уже сегодня!</h2>
           </div>
           <ul class="advantages__list">
-            <li class="advantages__list-item">Бесплатный выезд оценщика по СПб и ЛО в течение 30 минут</li>
-            <li class="advantages__list-item">Заплатим на 10% больше, чем предлагают конкуренты</li>
-            <li class="advantages__list-item">Оплата наличными сразу после оценки и оформления договора</li>
+            <li class="advantages__list-item advantages__list-item--appraiser">Бесплатный выезд оценщика по СПб и ЛО в течение 30 минут</li>
+            <li class="advantages__list-item advantages__list-item--benefit">Заплатим на 10% больше, чем предлагают конкуренты</li>
+            <li class="advantages__list-item advantages__list-item--payment">Оплата наличными сразу после оценки и оформления договора</li>
           </ul>
           <div class="advantages__lead-form">
             <form action="" class="advantages__lead-form-item lead-form">
@@ -80,7 +80,11 @@
                   <input type="text" class="lead-form__tel-input">
                 </div>
                 <div class="lead-form__file">
-                  <input type="file" class="lead-form__file-input">
+                  <label for="file">
+                    <span class="lead-form__file-icon"></span>
+                    <span class="lead-form__file-descr">Прикрепить файл</span>
+                  </label>
+                  <input type="file" id="file" class="lead-form__file-input">
                 </div>
                 <div class="lead-form__btn">
                   <button class="lead-form__btn-item btn">Оценить</button>
@@ -90,29 +94,29 @@
           </div>
         </div>
       </div>
-      <div class="promo__present present">
-        <div class="wrapper">
+      <div class="wrapper">
+        <div class="promo__present present">
           <div class="present__title">
-            <p><span>Бесплатный</span>вывоз торговорого оборудования</p>
+            <p><span>Бесплатный</span><br>вывоз торговорого оборудования</p>
           </div>
           <div class="present__img">
             <img src="img/promo/present-img.png" alt="">
           </div>
           <div class="present__lead-form">
             <div class="present__descr">
-              <img src="img/promo/form-arrow.png" alt="" class="present__descr-arrow">
+              <!-- <img src="img/promo/form-arrow.png" alt="" class="present__descr-arrow"> -->
               <span>Подарок</span>
-              <img src="img/promo/form-present.png" alt="" class="present__descr-img">
+              <!-- <img src="img/promo/form-present.png" alt="" class="present__descr-img"> -->
             </div>
             <form action="" class="present__lead-form-item lead-form">
-              <div class="lead-form__title">
+              <div class="lead-form__title lead-form__title--end">
                 <h3>Оформите бесплатный вывоз</h3>
               </div>
               <div class="lead-form__inner">
                 <div class="lead-form__tel">
-                  <input type="text" class="lead-form__tel-input">
+                  <input type="text" class="lead-form__tel-input lead-form__tel-input--border">
                 </div>
-                <div class="lead-form__btn">
+                <div class="lead-form__btn lead-form__btn--end">
                   <button class="lead-form__btn-item btn">Получить подарок</button>
                 </div>
               </div>
