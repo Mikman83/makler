@@ -124,6 +124,13 @@
       }
     }
 
+    &--mb {
+
+      @media (max-width: $screen-xs) {
+        margin-bottom: 10px;
+      }
+    }
+
     &--start-verticle {
 
       @media (max-width: $screen-md) {
